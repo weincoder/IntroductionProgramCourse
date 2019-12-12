@@ -1,2 +1,2 @@
 # TypeOfVariablesPython
-This is a pretty introduction to variables in python
+This is a pretty introduction to python
