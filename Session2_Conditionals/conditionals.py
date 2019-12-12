@@ -29,7 +29,7 @@ print("siembre me ejecutare")
 #En el caso anterio if indica la pregunta, el contenido de los parentesis la pregunta y el dos puntos
 #indica que cuando se cumpla la condición se debe ejecutar lo que esta debajo. Para indicar que 
 #las acciones que deseamos ejecutar que siempre que se cumpla este if deben estar identadas debajo del
-#condicional, de forma que el primer y el segundo print solo se cumpliran cuando se cumpla la condición
+#condicional, de forma que el primer y el segundo print solo se mostraran cuando se cumpla la condición
 #sin embargo el tercero siembre se ejecutará
 
 
@@ -49,7 +49,7 @@ else:
 
 #para este caso elif hace referencia a que si una anterior condición no es cumplida puedo hacer otra pregunta
 #esto es interesante pues podemos hacer muchas preguntas para llegar a una respuesta. En caso de que no quede 
-#ninguna otra opción podemos poner else por ejemplo, en el caso anterior no era necesario preguntar si (a==b)
+#ninguna otra opción podemos poner else. por ejemplo, en el caso anterior no era necesario preguntar si (a==b)
 #ya que era la única posibilidad que quedaba
 
 
