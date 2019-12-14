@@ -4,7 +4,7 @@
 
 #--------Ejemplo 1 ------#
 
-#ahorremos hasta tenere suficiente para el computador
+#ahorremos hasta tener suficiente para el computador
 
 
 dinero = float ( input ( "ingrese el dinero que tiene en este momento ahorrado para el computador : "))
@@ -14,6 +14,7 @@ if dinero >= precio : print ("tenemos lo necesario")
 
 #en caso de que tengamos suficiente dinero jamás ingresará por esta opción
 while (precio > dinero) :
+    #mientras sea cierto se ejecutará este ciclo
     print("necesitamos ahorar, ahorremos en uno en uno")
     dinero += 1
     print( "usted posee", dinero, "le falta", precio - dinero, "para completar su objetivo")
