@@ -9,7 +9,7 @@ list_of_estudents = ['mafer', 'nano', 'dan' , 'gi']
 name_of_file_to_write = 'estudents_file.txt'
 file_to_read_name = 'archivo.txt'
 message_longest = "el estudiante con nombre mas largo es {}"
-a = 2 
+a = 2
 b = 3
 #para acceder a una función dentro del archivo únicamente debemos
 #llamar al alias . el nombre de la función
