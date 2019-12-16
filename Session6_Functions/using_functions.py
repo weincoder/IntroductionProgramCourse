@@ -6,7 +6,7 @@ import functions_def as helper
 
 #Constantes
 list_of_estudents = ['mafer', 'nano', 'dan' , 'gi']
-name_of_file_to_write = 'estudents.txt'
+name_of_file_to_write = 'estudents_file.txt'
 file_to_read_name = 'archivo.txt'
 message_longest = "el estudiante con nombre mas largo es {}"
 a = 2 
