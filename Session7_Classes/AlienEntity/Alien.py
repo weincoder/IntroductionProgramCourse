@@ -3,11 +3,12 @@ class Alien:
         self.nombre = nombre
         self.planeta = planeta
         self.message_preview =": radeuq ejasnem nu ognet y {} se erbmon im aloh \n{}"
-        self.message_walk="yo no camino me teletransporto a la cordenada que quiera voy a {} paso en un solo instante"
+        self.message_walk="yo no camino me teletransporto a la cordenada que quiera voy a {} pasos en un solo instante"
         #Este mensaje se mostrará siempre al crear una nueva entidad persona
         print ("{} atetnalp led yos {} se erbmon im ,oveun neila nu yos".format(
             self.reversed_message(self.planeta), 
             self.reversed_message(self.nombre)))
+    # Pregunto al estudiante ¿como funciona esto?
     def reversed_message (self,message) :
         reversor =""
         for i in range (len(message)) :
