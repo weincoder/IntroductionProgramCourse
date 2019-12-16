@@ -51,5 +51,3 @@ else:
 #esto es interesante pues podemos hacer muchas preguntas para llegar a una respuesta. En caso de que no quede 
 #ninguna otra opción podemos poner else. por ejemplo, en el caso anterior no era necesario preguntar si (a==b)
 #ya que era la única posibilidad que quedaba
-
-

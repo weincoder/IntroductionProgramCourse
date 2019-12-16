@@ -69,10 +69,3 @@ while (validador == 1 ):
 
 for nombre in lista_estudiantes:
     print (mostrar_nombres_mensaje.format(nombre))
-
-
-
-
-
-
-

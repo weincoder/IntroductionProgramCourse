@@ -34,7 +34,3 @@ prueba_embarazo=True
 print(type(prueba_embarazo))
 
 print("The result is ...", prueba_embarazo)
-
-
-
-

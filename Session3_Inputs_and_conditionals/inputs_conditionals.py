@@ -35,4 +35,3 @@ elif ( dinero < 2000 ):
         print ("usted a accedido al credito y le daremos su computador, por lo tanto tiene una deuda de",2000-dinero,"dolares con un interes del 2% anual")
     else: print ("Gracias lo esperamos pronto")
 else: print("tiene justo lo necesario muchas gracias ya le daremos el pc")
-   

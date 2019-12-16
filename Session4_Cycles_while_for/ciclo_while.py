@@ -70,15 +70,3 @@ print (mensaje_victoria.format(palabra_secreta))
 #con una variable
 
 print ("hola solo demostraré algo interesante {} == {} y ademas 2 != {} aunque es obvio".format (2,2,4))
-
-
-
-
-
-
-
-
- 
-
-
-
