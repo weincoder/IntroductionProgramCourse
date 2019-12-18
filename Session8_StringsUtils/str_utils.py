@@ -61,5 +61,3 @@ print (txt.replace ("java","python"))
 #Convertir a mayuscula todas las letras de un string
 txt = "estoy claramente en minuscula"
 print(txt.upper())
-
-
