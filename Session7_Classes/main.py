@@ -16,4 +16,3 @@ rodolfo.talk ("yo hablo al contrario de lo que crees")
 rodolfo.walk_n_steps(4)
 daniel = eng.Engineer("daniel", "ingenierio biomédico")
 daniel.translate_alien (alien_mensaje)
-
