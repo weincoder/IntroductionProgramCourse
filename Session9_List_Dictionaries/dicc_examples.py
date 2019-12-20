@@ -34,20 +34,62 @@ print (medios_transporte.values())
 print (list (medios_transporte.values()))
 valores =  list (medios_transporte.values())
 #A continuación otra forma de crear diccionarios
-dicionario={}
-dicionario['Estudiantes']=['Meli','vale','cathe']
-dicionario['Profesores']=['Braiam','Diego']
-dicionario['aulas']=['A202','A206']
-print(dicionario)
-print(list(dicionario.keys()))
-print(list(dicionario.values()))
-print(dicionario['Profesores'])
-print(dicionario)
+diccionario={}
+diccionario['Estudiantes']=['Meli','vale','cathe']
+diccionario['Profesores']=['Braiam','Diego']
+diccionario['aulas']=['A202','A206']
+print(diccionario)
+print(list(diccionario.keys()))
+print(list(diccionario.values()))
+print(diccionario['Profesores'])
+print(diccionario)
 #Los diccionarios nos permiten tener de una forma mas organizada la información
 #En ocasiones podemos ver diccionarios de diccionarios
 materiales={}
 materiales['oro']=['18k','16k']
 materiales['marcadores']=['pelikan','paper maker']
 print(type(materiales))
-dicionario['Elementos']=materiales
-print(dicionario['Elementos']['marcadores'])
+diccionario['Elementos']=materiales
+print(diccionario['Elementos']['marcadores'])
+
+
+#Operaciones con diccionarios
+
+#generar una copia sin afectar el original
+
+diccionario_copia =diccionario.copy()
+print(diccionario_copia)
+
+#limpiar el contenido de un diccionario
+diccionario_copia.clear()
+print (diccionario_copia)
+
+#crear un diccionario con las llaves el valor inicial será el mismo para todos
+keys = ["idiomas","carreras"]
+values = "soy un valor genérico"
+created_dic = dict.fromkeys(keys,values)
+print (created_dic)
+
+#sin valor inicial sería
+created_dic = dict.fromkeys (keys)
+print (created_dic)
+
+#obtener la definición de otra manera directamente en una lista
+print (diccionario.get("Profesores"))
+
+#Eliminar un componente del diccionario
+diccionario_copy = diccionario.copy()
+
+#se ingresa el específico valor de la llave a eliminar
+diccionario_copy.pop("Profesores")
+print (diccionario_copy)
+
+#elimina la última llave agregada
+diccionario_copy.popitem()
+print (diccionario_copy)
+
+#Agregar una llave o si existe sobre escribe su valor
+diccionario_copy.setdefault("Computadoras",["Apple","Dell","Lenovo"])
+print (diccionario_copy)
+print (diccionario_copy.setdefault("Computador",["Apple","Dell","Lenovo","IBM"]))
+print (diccionario_copy)
