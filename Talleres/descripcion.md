@@ -8,3 +8,5 @@ Se procede a adicionar talleres junto con sus respuestas para que puedas capacit
 * Taller recopilatorio https://colab.research.google.com/drive/1utFq70pd4WMfVwb0Su2vBTAu2F7NSbdI?usp=sharing
 
 * Taller funciones https://colab.research.google.com/drive/1t4mEOWAkEAwm4YtSHGjdPoy157syjOKh?usp=sharing
+
+* Taller clases https://colab.research.google.com/drive/1w02plkZ3WUSE8kzKX04IEaAzNbkhniXq?usp=sharing
